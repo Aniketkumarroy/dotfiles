@@ -23,6 +23,7 @@ sudo apt install stow
 clone the repository in your home folder
 
 ```
+cd ~
 git clone git@github.com:Aniketkumarroy/dotfiles.git .dotfiles
 cd .dotfiles
 ```
