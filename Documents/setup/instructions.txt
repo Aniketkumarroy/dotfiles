@@ -1,0 +1,18 @@
+install docker : https://docs.docker.com/engine/install/ubuntu/ && https://docs.docker.com/engine/install/linux-postinstall/
+install chrome : https://askubuntu.com/questions/510056/how-to-install-google-chrome
+install vscode : https://www.makeuseof.com/how-to-install-visual-studio-code-ubuntu/
+WhiteSur-icon : https://github.com/vinceliuice/WhiteSur-icon-theme
+WhiteSur-theme : https://github.com/vinceliuice/WhiteSur-gtk-theme && https://www.youtube.com/watch?v=45Iz8bQGYuE && https://www.youtube.com/watch?v=cueqrwlBv6M
+WhiteSur-firefox-theme : https://github.com/vinceliuice/WhiteSur-firefox-theme && ./install.sh -m
+WhiteSur-cursors : https://www.gnome-look.org/p/1408466
+cava config : https://www.pling.com/p/2159316/
+install kitty : sudo apt install kitty
+make kitty default terminal : gsettings set org.gnome.desktop.default-applications.terminal exec 'kitty' && gsettings set org.gnome.desktop.default-applications.terminal exec-arg ''
+change kitty icon : open /usr/share/applications/kitty.conf and add "Icon=org.gnome.Terminal" in it
+fastfetch : https://github.com/fastfetch-cli/fastfetch
+awesome-font: download font-awesome from their website, extract the zip and navigate into their directory, copy all files in otfs folder to ~/.fonts, run fc-cache -f -v in terminal
+rofi config : https://github.com/adi1090x/rofi
+planify to-do app : https://github.com/alainm23/planify
+
+
+wallpaper changer, dotfiles
