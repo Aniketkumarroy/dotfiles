@@ -1,0 +1,98 @@
+{
+    "editor.formatOnSaveMode": "file",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "breadcrumbs.enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "88"
+    ],
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "[shellscript]": {
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff0075",
+            }
+        ],
+    },
+    "[cpp][cc][hpp][h][c]": {
+        "editor.defaultFormatter": "xaver.clang-format",
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff0075",
+            }
+        ],
+    },
+    "[markdown]": {
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#ff9900",
+            }
+        ],
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        },
+        "editor.formatOnSaveMode": "file",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff0075",
+            }
+        ],
+    },
+    "[yaml]": {
+        "editor.formatOnSaveMode": "modifications",
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.formatOnPaste": true,
+        "editor.rulers": [
+            {
+                "column": 80,
+                "color": "#00ff0075",
+            }
+        ],
+    },
+    "C_Cpp.clang_format_path": "/usr/bin/clang-10",
+    "C_Cpp.default.cppStandard": "c++17",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "cmake.pinnedCommands": [
+        "workbench.action.tasks.configureTaskRunner",
+        "workbench.action.tasks.runTask"
+    ],
+    "window.titleBarStyle": "custom",
+    "files.autoSave": "afterDelay",
+    "workbench.editor.splitInGroupLayout": "vertical",
+    "workbench.iconTheme": "material-icon-theme",
+    "animations.Install-Method": "Apc Customize UI++",
+    "gitlens.home.preview.enabled": false,
+    "git.suggestSmartCommit": false,
+    "workbench.colorTheme": "Monokai",
+    "editor.fontFamily": "Cascadia Code Nerd Font, Cascadia Code, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.lineNumbers": "on",
+}
