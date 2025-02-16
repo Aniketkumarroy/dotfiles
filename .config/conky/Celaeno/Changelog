@@ -1,0 +1,35 @@
+Changelog
+--------------------------------------------------------
+Celaeno - Conky Theme
+[ Taurus Themes Pack ] 
+
+by Closebox73
+
+Social
+X			: https://twitter.com/closebox73
+Discord		: https://discord.com/users/1115644269802311750
+Pling		: https://pling.com/u/closebox73x
+Mastodon	: https://mastodon.social/@closebox73
+--------------------------------------------------------
+
+v2.5
+date : 29 Sep 2024
+-	Add Text.Lua for CPU, RAM & Battery percent information
+-	Change system storage info to be Battery percent info
+-	Add line draw_blended in conky config due transparent image issue in Gnome & KDE
+-	Change font from Anton to be ZT Floogn
+-	Change font from Roboto to be Finlandica
+-	Add Donate Link
+-	Some minor change
+
+
+v2.0
+date : 12 Oct 2022
+-	New weather.sh
+-	Add override_uutf8_locale line
+-	Some minor change
+
+
+v1.0
+date : 13 Nov 2021
+-	Initial release
