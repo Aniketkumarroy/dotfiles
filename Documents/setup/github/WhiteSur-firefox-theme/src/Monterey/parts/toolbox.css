@@ -10,10 +10,9 @@
 #nav-bar, #PersonalToolbar, #toolbar-menubar, #titlebar {
 	color: var(--gnome-toolbar-color);
 	background: var(--gnome-toolbar-background) !important;
-	border: none !important;
 }
 
-#PersonalToolbar {
+#navigator-toolbox {
 	border-bottom: 1px solid var(--gnome-toolbar-border-color) !important;
 }
 
@@ -22,12 +21,6 @@
 #toolbar-menubar:-moz-window-inactive,
 #titlebar:-moz-window-inactive {
 	background: var(--gnome-inactive-toolbar-background) !important;
-}
-
-/* Toolbox colors */
-#navigator-toolbox {
-	border: none !important;
-	background: none !important;
 }
 
 .toolbarbutton-icon {
@@ -58,7 +51,7 @@
 }
 
 /* allow to drag headerbar empty space */
-:root[tabsintitlebar] #nav-bar .chromeclass-location {
+#nav-bar .chromeclass-location {
 	-moz-window-dragging: drag !important;
 }
 

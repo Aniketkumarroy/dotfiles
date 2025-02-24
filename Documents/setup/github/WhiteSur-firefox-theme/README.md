@@ -11,11 +11,17 @@ Based on https://github.com/rafaelmardojai/firefox-gnome-theme
 
 ## Installation
 
+> [!note]
+> This project applies custom CSS to Firefox on Linux.
+> For other operating systems, refer to the [MacOS and Windows version](#macos-and-windows-version).
+
 Run the following commands in the terminal:
 
 ```sh
 ./install.sh
 ```
+
+INFO: Do not run it with sudo, or it will install in root user folder !
 
 Usage:  `./install.sh`  **[OPTIONS...]**
 
